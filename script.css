@@ -1,0 +1,25 @@
+body{
+    background-color: slategrey;
+    height: 900px;
+}
+
+#navItems{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+#navBar{
+    padding: 0;
+    margin: 0;
+    border-bottom: solid black 1px;
+}
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.hidden {
+    display: none;
+}
