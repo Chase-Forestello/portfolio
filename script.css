@@ -1,25 +1,84 @@
-body{
+body {
     background-color: slategrey;
     height: 900px;
 }
 
-#navItems{
+#navItems {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     margin-bottom: 0;
+    font-size: 1.2em;
 }
 
-#navBar{
+#navBar {
     padding: 0;
-    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 4px;
     border-bottom: solid black 1px;
 }
+
 .back-to-top {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
+    color: whitesmoke;
+    border: solid 1px;
 }
+
 .hidden {
     display: none;
+}
+
+#avatarCard {
+    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 1px;
+}
+
+.card-img-top {
+    height: 20em;
+}
+
+.card-img-avatar {
+    position: relative;
+    width: 130px;
+    bottom: 4.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 60px;
+    border: solid 3px;
+}
+
+.card-text {
+    position: relative;
+    bottom: 75px;
+}
+
+#contactIcons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.fab, .fas {
+    color: slategrey;
+}
+
+.aboutHeader {
+    position: relative;
+    bottom: 3.5em;
+}
+
+#languageAndTools {
+    position: relative;
+    bottom: 4em;
+}
+
+a{
+    height: 50px;
+    width: 50px;
 }
