@@ -76,6 +76,12 @@ body {
     position: relative;
     bottom: 3.5em;
 }
+.aboutHeader1{
+    padding-right: 50px;
+}
+.aboutHeader2{
+    padding-left: 50px;
+}
 
 #languageAndTools {
     position: relative;
