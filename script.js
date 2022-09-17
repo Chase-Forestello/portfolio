@@ -19,4 +19,14 @@
         document.body.scrollIntoView();
     };
     backToTopButton.addEventListener("click", goToTop)
+
+    let navLinks = document.getElementsByClassName('nav-link');
+    for (let i = 0; i < navLinks.length; i++) {
+        navLinks[i].addEventListener("click", function (e) {
+            if (navLinks[i].classList.contains('active')) {
+                navLinks[i].classList.toggle('active')
+            }
+                navLinks[i].classList.toggle('active');
+        })
+    }
 })()

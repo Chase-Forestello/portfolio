@@ -94,7 +94,25 @@ body {
     color: black;
 }
 #cafesalastelloCard{
-    height: 45%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 1em;
+    width: 50%;
+    border: solid slategrey 1px;
+}
+#projectsHr{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#projectBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectGithubBtn{
+    margin-bottom: .5em;
+}
+.projectBtns{
+    width: 10em;
 }

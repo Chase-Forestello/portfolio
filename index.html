@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projectCardContainer">Projects</a>
                 </div>
             </div>
         </div>
@@ -81,22 +81,25 @@
         </div>
         <div class="container">
             <div id="projectCardContainer" class="card">
+                <h3 class="card-title text-center mt-2">Projects</h3>
+                <hr id="projectsHr">
                 <div id="cafesalastelloCard" class="card mb-3">
                     <div class="row">
                         <div class="col">
                             <img src="img/cafesalastelloss.png" class="img-fluid rounded-start" alt="...">
                         </div>
-                        <div id="test">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Café Salastello</h5>
+                        <div class="col-12">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fs-2">Café Salastello</h5>
                                 <p class="card-text">A paired-programming web application with basic CRUD functionality.
                                     This project consists of a coffee website built with HTML that serves as a filing
                                     cabinet for various roasts of coffee using CSS and Bootstrap for styling. Through
                                     features implementing JavaScript DOM manipulation, users can search for, add or
                                     remove coffees, and also provide descriptions for those coffees.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div id="projectBtns">
+                                    <a href="https://github.com/Chase-Forestello/cafe-salastello" target="_blank" class="btn btn-primary text-nowrap projectBtns projectGithubBtn">GitHub</a>
+                                    <a href="https://chase-forestello.github.io/cafe-salastello/" target="_blank" class="btn btn-primary text-nowrap projectBtns">Live Demo</a>
+                                </div>
                             </div>
                         </div>
                     </div>
