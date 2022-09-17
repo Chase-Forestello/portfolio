@@ -93,3 +93,8 @@ body {
 .fa-github:hover{
     color: black;
 }
+#cafesalastelloCard{
+    height: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
