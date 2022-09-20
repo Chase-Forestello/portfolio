@@ -93,19 +93,19 @@ body {
 .fa-github:hover{
     color: black;
 }
-#cafesalastelloCard{
+.projectCards{
     margin-right: auto;
     margin-left: auto;
     margin-top: 1em;
     width: 50%;
     border: solid slategrey 1px;
 }
-#projectsHr{
+.projectsHr{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
-#projectBtns{
+.projectBtns{
     display: flex;
     flex-direction: column;
     align-items: center;
