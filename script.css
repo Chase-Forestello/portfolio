@@ -24,6 +24,8 @@ body {
     bottom: 2rem;
     color: whitesmoke;
     border: solid 1px;
+    background-color: black;
+    z-index: 2;
 }
 
 .hidden {
@@ -99,11 +101,6 @@ body {
     margin-top: 1em;
     width: 50%;
     border: solid slategrey 1px;
-}
-.projectsHr{
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .projectBtns{
     display: flex;
