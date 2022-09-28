@@ -29,4 +29,4 @@
                 navLinks[i].classList.toggle('active');
         })
     }
-})()
+})();
