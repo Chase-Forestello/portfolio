@@ -1,152 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Created By MultiWebPress - www.multiwebpress.com -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <head>
-    <title>Chase Forestello - Software Developer - Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="script.css">
-    <script src="https://kit.fontawesome.com/26f09e8c8b.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Profle Card Html & CSS | MultiWebPress </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
-<div id="wrapper">
-    <button class="back-to-top btn btn-outline-secondary hidden">Back To Top</button>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    <a class="nav-link" href="#projectCardContainer">Projects</a>
+<button onclick="function topFunction() {
+ document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+}
+topFunction()" id="myBtn" title="Go to top">Top
+</button>
+<nav class="navbar sticky-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <span id="navbarLogo">&lt; / &gt;</span><span class="navbar-text">Chase Forestello</span>
+        </a>
+    </div>
+</nav>
+<div class="container">
+    <div class="profileCard col-8">
+        <h2>Full-Stack Web Developer</h2>
+        <p id="profileCardBio">Dedicated to writing clean code that delivers seamless, intuitive, secure, and efficient experiences.
+            I am highly adaptable and can quickly find solutions with the tools and skills I have.
+            Organization and structure are my primary focuses. </p>
+        <div class="buttons">
+            <div class="bottom-section">
+                <div class="social-media">
+                    <a href="#"><i class="fab contactLink fa-linkedin"></i></a>
+                    <a href="#"><i class="fab contactLink fa-github"></i></a>
+                    <a href="#"><i class="fas contactLink fa-envelope"></i></a>
                 </div>
             </div>
         </div>
-    </nav>
-    <div class="container">
-        <div id="about" class="row">
-            <div id="avatarCard" class="col-10 card mb-3">
-                <img src="img/planetbackground" class="card-img-top" alt="Avatar background">
-                <img src="img/portfolioimg.jpeg" class="card-img-avatar rounded-circle" alt="Avatar">
-                <div class="card-body">
-                    <div class="aboutHeader row">
-                        <text class="aboutHeader1 aboutHeader text-center col fw-bold">Chase Forestello&nbsp;&nbsp;
-                        </text>
-                        <text class="aboutHeader2 aboutHeader text-center col fw-bold">&nbsp;&nbsp;Software Developer
-                        </text>
-                    </div>
-                    <p class="card-text aboutText text-center">Software developer with previous experience in project
-                        management
-                        and team
-                        operations logistics. Dedicated to writing clean code that delivers seamless, intuitive, secure,
-                        and
-                        efficient experiences.</p>
-                    <div id="languageAndTools" class="text-center">
-                        <h3>Languages and Tools:</h3>
-                        <img class="toolIcon" alt="IntelliJ" width="26px"
-                             src="https://img.icons8.com/color/48/000000/intellij-idea.png">
-                        <img class="toolIcon" alt="HTML5" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
-                        <img class="toolIcon" alt="CSS3" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
-                        <img class="toolIcon" alt="JavaScript" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
-                        <img class="toolIcon" alt="Java" width="26px"
-                             src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png">
-                        <img class="toolIcon" alt="Spring Boot" width="26px"
-                             src="https://img.icons8.com/color/48/000000/spring-logo.png">
-                        <img class="toolIcon" alt="MySQL" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png">
-                        <img class="toolIcon" alt="Git" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png">
-                        <img class="toolIcon" alt="GitHub" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png">
-                        <img class="toolIcon" alt="Terminal" width="26px"
-                             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"/>
-                    </div>
-                    <hr>
-                    <div id="contactIcons">
-                        <a href="mailto:chase.forestello@gmail.com" target="blank"><i
-                                class="fas icon fa-envelope-open"></i></a>
-                        <a href="https://github.com/Chase-Forestello" target="blank"><i class="fab icon fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/chase-forestello/" target="blank"><i
-                                class="fab icon fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-                <div id="projectCardContainer" class="row card">
-                    <h3 class="card-title text-center mt-2">Projects</h3>
-                    <hr class="projectsHr">
-                    <div class="projectCards card col-12 mb-3">
-                        <div class="row">
-                            <div class="col">
-                                <img src="img/cafesalastelloss.png" class="img-fluid rounded-start"
-                                     alt="cafesalastello screenshot">
-                            </div>
-                            <div class="col-12">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title fs-2">Café Salastello</h5>
-                                    <p class="card-text">A paired-programming web application with basic CRUD
-                                        functionality.
-                                        This project consists of a coffee website built with HTML that serves as a
-                                        filing
-                                        cabinet for various roasts of coffee using CSS and Bootstrap for styling.
-                                        Through
-                                        features implementing JavaScript DOM manipulation, users can search for, add or
-                                        remove coffees, and also provide descriptions for those coffees.</p>
-                                    <div>
-                                        <a href="https://github.com/Chase-Forestello/cafe-salastello" target="_blank"
-                                           class="btn btn-primary text-nowrap projectBtns projectGithubBtn">GitHub</a>
-                                        <a href="https://chase-forestello.github.io/cafe-salastello/" target="_blank"
-                                           class="btn btn-primary text-nowrap projectBtns">Live Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="projectCards card col-3 mb-3">
-                        <div class="row">
-                            <div class="col">
-                                <img src="img/weathermapss.png" class="img-fluid rounded-start"
-                                     alt="weathermap screenshot">
-                            </div>
-                            <div class="col-12">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title fs-2">Weathermap</h5>
-                                    <p class="card-text">An interactive paired-programming web application with CRUD
-                                        functionality, geolocation,
-                                        geocoding, and the OpenWeather Weather API. This project utilizes the
-                                        OpenWeather API, JavaScript, and HTML
-                                        to allow users to enter any location based on name, address, coordinates, or
-                                        direct marker selection and receive
-                                        back a 5 day weather forecast for that area. A marker is dropped which behaves
-                                        dynamically allowing the user to drag
-                                        to new locations. CSS and Bootstrap were used for styling.</p>
-                                    <div>
-                                        <a href="https://github.com/Chase-Forestello/weathermap" target="_blank"
-                                           class="btn btn-primary text-nowrap projectBtns projectGithubBtn">GitHub</a>
-                                        <a href="https://chase-forestello.github.io/weathermap/" target="_blank"
-                                           class="btn btn-primary text-nowrap projectBtns">Live Demo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="skills">
+            <h6>Skills</h6>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>React JS</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>WordPress</li>
+                <li>Shopify</li>
+            </ul>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous">
-    </script>
-    <script src="script.js"></script>
+    <div id="projectContainer" class="row">
+        <div class="projectCard col-md-5">
+            <h2>GameFace</h2>
+            <p>GameFace is a single-page application social media platform that allows gamers to connect with other gamers in order to enhance their gaming experience. GameFace users are able to create and personalize their profile based on platform of choice, gamertags, and favorite games. Additionally, GameFace users connect with posts, likes, comments, and highlights. GameFace gives users the ability to find gaming partners based on games played, region, skill, and play style. Ultimately, GameFace is a networking solution that allows users to connect and grow as gamers in a safe and inclusive environment. </p>
+            <div class="buttons">
+                <div class="bottom-section">
+                    <div class="social-media projectLinks">
+                        <a href="https://github.com/GameFaceProductions/GameFace" target="_blank"><i class="fab projectLink fa-github"></i></a>
+                        <div class="demoDiv">
+                        <a href="https://game-face.io/" target="_blank"><i class="fas projectLink fa-play"></i></a><span>Demo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <h6>Tools Used</h6>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>Amazon RDS</li>
+                    <li>Filestack API</li>
+                    <li>RAWG API</li>
+                    <li>Google Authentication</li>
+                </ul>
+            </div>
+        </div>
+        <div class="projectCard col-md-5">
+            <h2>Weather Map</h2>
+            <p>An interactive paired-programming web application with geolocation, geocoding, and the OpenWeather Weather API. This project utilizes the OpenWeather API, JavaScript, and HTML to allow users to enter any location based on name, address, coordinates, or direct marker selection and receive back a 5 day weather forecast for that area. A marker is dropped which behaves dynamically allowing the user to drag to new locations.</p>
+            <div class="buttons">
+                <div class="bottom-section">
+                    <div class="social-media projectLinks">
+                        <a title="GitHub" href="https://github.com/Chase-Forestello/ryan-chase-weathermap" target="_blank"><i class="fab projectLink fa-github"></i></a>
+                        <div class="demoDiv">
+                            <a title="Demo" href="https://chase-forestello.github.io/weathermap/" target="_blank"><i class="fas projectLink fa-play"></i></a><span>Demo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+
+                <h6>Tools Used</h6>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>OpenWeather API</li>
+                    <li>Geocoding</li>
+                    <li>Geolocation</li>
+                </ul>
+            </div>
+        </div>
+        <div class="projectCard col-md-5">
+            <h2>Movie Search Engine</h2>
+            <p>A paired-programming single-page application with CRUD functionality. This project allows users to search for movies by name and returns a card with the movie poster, title, director, genres, and plot summary. Through HTML and JavaScript DOM manipulation, users can add, edit, or delete movies from the collection through various modal prompts. The search engine makes use of The Movie Database API (TMDB) and Glitch to serve the backend.</p>
+            <div class="buttons">
+                <div class="bottom-section">
+                    <div class="social-media projectLinks">
+                        <a title="GitHub" href="https://github.com/Shaquielle-Chase-MovieOrg/movies-shaquielle-chase" target="_blank"><i class="fab projectLink fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+
+                <h6>Tools Used</h6>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>The Movie Database API</li>
+                </ul>
+            </div>
+        </div>
+        <div class="projectCard col-md-5">
+            <h2>Weather Map</h2>
+            <p>An interactive paired-programming web application with geolocation, geocoding, and the OpenWeather Weather API. This project utilizes the OpenWeather API, JavaScript, and HTML to allow users to enter any location based on name, address, coordinates, or direct marker selection and receive back a 5 day weather forecast for that area. A marker is dropped which behaves dynamically allowing the user to drag to new locations.</p>
+            <div class="buttons">
+                <div class="bottom-section">
+                    <div class="social-media projectLinks">
+                        <a title="GitHub" href="https://github.com/Chase-Forestello/ryan-chase-weathermap" target="_blank"><i class="fab projectLink fa-github"></i></a>
+                        <div class="demoDiv">
+                            <a title="Demo" href="https://chase-forestello.github.io/weathermap/" target="_blank"><i class="fas projectLink fa-play"></i></a><span>Demo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+
+                <h6>Tools Used</h6>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>OpenWeather API</li>
+                    <li>Geocoding</li>
+                    <li>Geolocation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 </html>
