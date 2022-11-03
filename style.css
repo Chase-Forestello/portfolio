@@ -54,6 +54,7 @@ p {
 
 #myBtn:hover {
     background-color: #555;
+    border-right: solid 3px whitesmoke;
 }
 #navbarLogo {
     border: solid 1px whitesmoke!important;
@@ -159,6 +160,12 @@ p {
     width: 100%;
     left: 0;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+#resumeDiv{
+    display: flex;
+    flex-direction: column;
 }
 
 .social-media i {
@@ -172,6 +179,7 @@ p {
     margin: 0px 7px;
     position: relative;
 }
+
 .projectLink:hover {
     border: solid white .1em;
 }
